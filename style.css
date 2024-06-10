@@ -1,0 +1,10 @@
+body {
+    background-color: #222;
+    color: white;
+}
+
+input {
+    width: 50%;
+    min-height: 5rem;
+    display: block;
+}
