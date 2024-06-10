@@ -1,3 +1,7 @@
+<?php
+$testo = $_GET['testo']
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +13,10 @@
 
 <body>
 
+    <h1>Il testo è lungo:</h1>
+    <?php
+    echo strlen($testo) . ' ' . 'caratteri'
+        ?>
 </body>
 
 </html>
